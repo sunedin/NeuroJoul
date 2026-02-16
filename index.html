@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NeuralJoule // The Autonomous Energy Frontier</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="brand">NeuralJoule</div>
+    <nav>
+      <a href="#mission">Mission</a>
+      <a href="#focus">Focus Areas</a>
+      <a href="#agent-log">Agent Log</a>
+      <a href="architecture.html">Architecture</a>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <p class="badge">NeuralJoule // THE AUTONOMOUS ENERGY FRONTIER</p>
+    <h1>A hive of Autonomous Grid Entities that negotiate, heal, and trade in real time.</h1>
+    <p class="subtitle">
+      NeuralJoule deploys specialized AI Agents as the primary stakeholders of the low-carbon transition.
+      They optimize, protect, and monetize energy assets in a machine-to-machine economy.
+    </p>
+    <div class="actions">
+      <button id="ctaButton">Initialize Orchestrator</button>
+      <a class="secondary" href="#focus">Enter Agentic Layer</a>
+      <a class="secondary" href="architecture.html">View Architecture</a>
+    </div>
+  </main>
+
+  <section id="mission" class="mission">
+    <h2>The Mission</h2>
+    <p>
+      To decentralize grid intelligence through autonomous agency. We deploy specialized AI Agents to
+      act as the primary stakeholders of the low-carbon transition—negotiating, optimizing, and
+      protecting energy assets in a real-time, machine-to-machine economy.
+    </p>
+  </section>
+
+  <section id="focus" class="card-grid">
+    <article class="card">
+      <h2>1. Autonomous Asset Agents (A3)</h2>
+      <ul>
+        <li>Every battery, inverter, and storage container is assigned a dedicated Neural Agent.</li>
+        <li><strong>Self-Healing Protocols:</strong> Detect cell anomalies and reroute loads autonomously.</li>
+        <li><strong>Edge-Inference:</strong> Site-local decisions deliver sub-millisecond fault response.</li>
+      </ul>
+    </article>
+    <article class="card">
+      <h2>2. Multi-Agent Trading Swarms</h2>
+      <ul>
+        <li>Agent swarms replace traditional desks to optimize dispatch and market strategy.</li>
+        <li><strong>Strategic Negotiation:</strong> Agents bid directly into Frequency Response and Reserve markets.</li>
+        <li><strong>Game Theory Optimization:</strong> MARL predicts competitor behavior to maximize spreads.</li>
+      </ul>
+    </article>
+    <article class="card">
+      <h2>3. Carbon-Proxy Agents</h2>
+      <ul>
+        <li>Agents align dispatch decisions with real-time carbon intensity.</li>
+        <li><strong>Emissions Arbitrage:</strong> Shift discharge to displace high-carbon peaker plants.</li>
+        <li><strong>Automated REC Management:</strong> Generate and trade RECs with verified provenance.</li>
+      </ul>
+    </article>
+    <article class="card">
+      <h2>4. The Orchestrator Layer</h2>
+      <ul>
+        <li>The master agent governs hierarchy-wide control and policy constraints.</li>
+        <li>Balances trading swarm profitability against battery safety and longevity.</li>
+        <li>Maintains equilibrium between market performance and physical asset protection.</li>
+      </ul>
+    </article>
+  </section>
+
+  <section id="agent-log" class="agent-log-panel">
+    <div class="agent-log-header">
+      <h2>Live Agent Log</h2>
+      <span class="status-dot"></span>
+    </div>
+    <div id="agentLogFeed" class="agent-log-feed" aria-live="polite"></div>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> NeuralJoule. Autonomous Grid Intelligence.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
